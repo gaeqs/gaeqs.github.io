@@ -1,13 +1,13 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
-  "genre": "Insert a schema.org genre",
+  "title": "Gael Rial",
+  "url": "https://gaeqs.github.io",
+  "domain": "gaeqs.github.io",
+  "description": "Gael Rial's Blog",
+  "genre": "Person",
   "googleAnalyticsId": "GA ID. Update me",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "Gael Rial's Blog",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://update-me.com"
@@ -17,7 +17,7 @@
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
+    "name": "Gael Rial Costas",
     "twitterHandle": "update_me"
   },
   "publisher": {
