@@ -10,8 +10,8 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/firstpost/</loc>
-    <lastmod>2021-02-21T20:02:14.000Z</lastmod>
+    <loc>https://gaeqs.github.io/posts/fifthpost/</loc>
+    <lastmod>2021-02-21T20:49:57.000Z</lastmod>
   </url>
   
   
@@ -23,8 +23,8 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/secondpost/</loc>
-    <lastmod>2021-02-21T20:02:14.000Z</lastmod>
+    <loc>https://gaeqs.github.io/posts/firstpost/</loc>
+    <lastmod>2021-02-21T20:49:57.000Z</lastmod>
   </url>
   
   
@@ -36,8 +36,8 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/thirdpost/</loc>
-    <lastmod>2021-02-21T20:02:14.000Z</lastmod>
+    <loc>https://gaeqs.github.io/posts/secondpost/</loc>
+    <lastmod>2021-02-21T20:49:57.000Z</lastmod>
   </url>
   
   
@@ -49,8 +49,21 @@
     
   
   <url>
-    <loc>https://update-me.com/posts/fourthpost/</loc>
-    <lastmod>2021-02-21T20:02:14.000Z</lastmod>
+    <loc>https://gaeqs.github.io/posts/thirdpost/</loc>
+    <lastmod>2021-02-21T20:49:57.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <url>
+    <loc>https://gaeqs.github.io/posts/fourthpost/</loc>
+    <lastmod>2021-02-21T20:49:57.000Z</lastmod>
   </url>
   
   
@@ -62,8 +75,8 @@
   
   
   <url>
-    <loc>https://update-me.com/about/</loc>
-    <lastmod>2021-02-21T20:02:35.563Z</lastmod>
+    <loc>https://gaeqs.github.io/about/</loc>
+    <lastmod>2021-02-21T20:50:19.356Z</lastmod>
   </url>
   
   
@@ -75,8 +88,8 @@
   
   
   <url>
-    <loc>https://update-me.com/posts/</loc>
-    <lastmod>2021-02-21T20:02:35.563Z</lastmod>
+    <loc>https://gaeqs.github.io/posts/</loc>
+    <lastmod>2021-02-21T20:50:19.356Z</lastmod>
   </url>
   
   
@@ -88,8 +101,8 @@
   
   
   <url>
-    <loc>https://update-me.com/</loc>
-    <lastmod>2021-02-21T20:02:35.599Z</lastmod>
+    <loc>https://gaeqs.github.io/</loc>
+    <lastmod>2021-02-21T20:50:19.388Z</lastmod>
   </url>
   
   
@@ -101,8 +114,8 @@
   
   
   <url>
-    <loc>https://update-me.com/page-list/</loc>
-    <lastmod>2021-02-21T20:02:35.599Z</lastmod>
+    <loc>https://gaeqs.github.io/page-list/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
   </url>
   
   
@@ -114,8 +127,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/</loc>
-    <lastmod>2021-02-21T20:02:35.603Z</lastmod>
+    <loc>https://gaeqs.github.io/postindex/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
   </url>
   
   
@@ -127,8 +140,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/another-tag/</loc>
-    <lastmod>2021-02-21T20:02:35.603Z</lastmod>
+    <loc>https://gaeqs.github.io/tags/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
   </url>
   
   
@@ -140,8 +153,8 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/second-tag/</loc>
-    <lastmod>2021-02-21T20:02:35.603Z</lastmod>
+    <loc>https://gaeqs.github.io/tags/fifth/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
   </url>
   
   
@@ -153,7 +166,33 @@
   
   
   <url>
-    <loc>https://update-me.com/tags/number-2/</loc>
-    <lastmod>2021-02-21T20:02:35.603Z</lastmod>
+    <loc>https://gaeqs.github.io/tags/another-tag/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://gaeqs.github.io/tags/second-tag/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://gaeqs.github.io/tags/number_2/</loc>
+    <lastmod>2021-02-21T20:50:19.392Z</lastmod>
   </url>
 </urlset>
