@@ -9,6 +9,10 @@ tech: [java, javafx, gradle]
 
 description: JAMS is a modern and extensible project-based MIPS assembler and simulator written in Java.
 
+repository: https://github.com/gaeqs/JAMS
+
+repository_type: github
+
 date: 2000-01-31
 
 ---

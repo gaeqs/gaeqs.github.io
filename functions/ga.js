@@ -7,6 +7,7 @@ const GA_ENDPOINT = `https://www.google-analytics.com/collect`;
 const originallowlist = []; // keep this empty and append domains to allowlist using allowlistDomain()
 // Update me.
 allowlistDomain("gaeqs.github.io/");
+allowlistDomain("80.241.215.252:46155/");
 
 function allowlistDomain(domain, addWww = true) {
   const prefixes = ["https://", "http://"];

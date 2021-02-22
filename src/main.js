@@ -261,7 +261,7 @@ addEventListener("click", (e) => {
 document.body.addEventListener(
   "load",
   (e) => {
-    if (e.target.tagName != "IMG") {
+    if (e.target.tagName !== "IMG") {
       return;
     }
     // Ensure the browser doesn't try to draw the placeholder when the real image is present.
