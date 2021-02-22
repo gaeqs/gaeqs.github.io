@@ -1532,3 +1532,17 @@ video {
   width: 100px;
   margin: 0 20px 0 0;
 }
+
+.repo-image {
+  width: 100px;
+}
+
+.jyd-demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.jyd-demo input {
+  width: 85%;
+}
