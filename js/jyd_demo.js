@@ -6,7 +6,7 @@ document.getElementById("demo_input_button").onclick = function (event) {
   output.innerText = "Loading...";
 
   const request = new XMLHttpRequest();
-  const url = "http://80.241.215.252:46155/demo?url=".concat(video);
+  const url = "https://gaeqs.webredirect.org:8890/jyddemo?url=".concat(video);
   request.open("GET", url, true);
 
   request.onload = function (pEvent) {
