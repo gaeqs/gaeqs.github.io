@@ -1,0 +1,23 @@
+---
+#layout: layouts/base.njk
+templateClass: tmpl-post
+---
+{% extends "layouts/post.njk" %}
+
+{% block article %}
+{{ content | safe }}
+
+  {% set windows_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/JAMS-0.8.exe" %}
+  {% set mac_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/JAMS-macos.zip" %}
+  {% set ubuntu_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/jams_0.8.ALPHA-1_amd64.deb" %}
+  {% set java_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/JAMS-0.8-ALPHA.jar" %}
+
+  <a href="https://github.com/gaeqs/JAMS/releases/">
+    <h4>
+      Other versions
+    </h4>
+  </a>
+
+  {% include "downloads.njk" %}
+
+{% endblock %}

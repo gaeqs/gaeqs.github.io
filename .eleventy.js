@@ -40,8 +40,8 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-const { DateTime } = require("luxon");
-const { promisify } = require("util");
+const {DateTime} = require("luxon");
+const {promisify} = require("util");
 const fs = require("fs");
 const hasha = require("hasha");
 const readFile = promisify(fs.readFile);
@@ -93,7 +93,7 @@ module.exports = function (eleventyConfig) {
 
   async function lastModifiedDate(filename) {
     try {
-      const { stdout } = await execFile("git", [
+      const {stdout} = await execFile("git", [
         "log",
         "-1",
         "--format=%cd",
@@ -107,6 +107,7 @@ module.exports = function (eleventyConfig) {
       return stats.mtime; // Date
     }
   }
+
   // Cache the lastModifiedDate call because shelling out to git is expensive.
   // This means the lastModifiedDate will never change per single eleventy invocation.
   const lastModifiedDateCache = new Map();
@@ -136,18 +137,18 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+    return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat(
       "dd LLL yyyy"
     );
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+    return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat("yyyy-LL-dd");
   });
 
   eleventyConfig.addFilter("sitemapDateTimeString", (dateObj) => {
-    const dt = DateTime.fromJSDate(dateObj, { zone: "utc" });
+    const dt = DateTime.fromJSDate(dateObj, {zone: "utc"});
     if (!dt.isValid) {
       return "";
     }
@@ -185,11 +186,21 @@ module.exports = function (eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true,
-  }).use(markdownItAnchor, {
+  });
+
+  markdownLibrary.use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "#",
+  })
+
+  markdownLibrary.use(require('markdown-it-html5-embed'), {
+    html5embed: {
+      useImageSyntax: true, // Enables video/audio embed with ![]() syntax (default)
+      useLinkSyntax: true   // Enables video/audio embed with []() syntax
+    }
   });
+
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides

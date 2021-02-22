@@ -1,8 +1,29 @@
-<ul>
 {% for post in postslist | reverse %}
-  <li>
-    <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time  datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-  </li>
+
+  <article class="post">
+    {% if post.data.image %}
+    <figure class="post-figure">
+        <a href="{{ post.url | url }}">
+          <img src="{{ post.data.image }}" alt="Image">
+        </a>
+    </figure>
+    {% endif %}
+
+    <div class="post-div">
+      <h2>
+        <a href="{{ post.url | url }}">
+          {{ post.data.title }}
+        </a>
+      </h2>
+      <p>
+        {{ post.data.description }}
+      </p>
+      {% if post.date | htmlDateString %}
+        <p>
+          {{ post.date | htmlDateString }}
+        </p>
+      {% endif %}
+    </div>
+  </article>
+
 {% endfor %}
-</ul>
