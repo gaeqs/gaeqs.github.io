@@ -17,6 +17,10 @@ date: 2000-01-30
 
 ---
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Demo](#demo)
+
 JavaYoutubeDownloader is a small and simple Youtube stream downloader that allows you to download or use any video on
 the platform in a few lines.
 
