@@ -1,0 +1,24 @@
+{% for post in postslist | reverse %}
+
+  <article class="post">
+    {% if post.data.image %}
+    <figure class="post-figure">
+        <a href="{{ post.url | url }}">
+          <img src="{{ post.data.image }}" alt="Image">
+        </a>
+    </figure>
+    {% endif %}
+
+    <div class="post-div">
+      <h2>
+        <a href="{{ post.url | url }}">
+          {{ post.data.title }}
+        </a>
+      </h2>
+      <p>
+        {{ post.data.description }}
+      </p>
+    </div>
+  </article>
+
+{% endfor %}

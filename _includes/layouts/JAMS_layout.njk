@@ -2,10 +2,10 @@
 #layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-{% extends "layouts/post.njk" %}
+{% extends "layouts/project.njk" %}
 
 {% block article %}
-{{ content | safe }}
+{{ super() }}
 
   {% set windows_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/JAMS-0.8.exe" %}
   {% set mac_download = "https://github.com/gaeqs/JAMS/releases/download/0.8-ALPHA/JAMS-macos.zip" %}
