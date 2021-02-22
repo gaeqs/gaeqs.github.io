@@ -1,15 +1,15 @@
 ---
 title: JAMS
 
-tags:
-
-- fifth
-
 layout: layouts/JAMS_layout.njk
 
 image: /img/JAMS/icon.png
 
-description: Jams is a modern and extensible project-based MIPS assembler and simulator written in Java.
+tech: [java, javafx, gradle]
+
+description: JAMS is a modern and extensible project-based MIPS assembler and simulator written in Java.
+
+date: 2000-01-31
 
 ---
 

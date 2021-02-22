@@ -2,11 +2,11 @@
 
   <article class="post">
     {% if post.data.image %}
-    <figure class="post-figure">
+      <figure class="post-figure">
         <a href="{{ post.url | url }}">
           <img src="{{ post.data.image }}" alt="Image">
         </a>
-    </figure>
+      </figure>
     {% endif %}
 
     <div class="post-div">
@@ -18,6 +18,11 @@
       <p>
         {{ post.data.description }}
       </p>
+      <div class="techs">
+        {% for tech in post.data.tech %}
+          <img src="/img/tech/{{ tech }}.png" alt="{{ tech }}" title="{{ tech }}">
+        {% endfor %}
+      </div>
     </div>
   </article>
 

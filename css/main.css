@@ -1522,3 +1522,13 @@ video {
 .downloads img {
   padding: 20%;
 }
+
+.techs {
+  display: flex;
+  flex-direction: row;
+}
+
+.techs img {
+  width: 100px;
+  margin: 0 20px 0 0;
+}
