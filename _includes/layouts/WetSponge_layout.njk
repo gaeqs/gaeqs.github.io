@@ -1,0 +1,14 @@
+---
+#layout: layouts/base.njk
+templateClass: tmpl-post
+---
+{% extends "layouts/project.njk" %}
+
+{% block article %}
+{{ super() }}
+
+  {% set java_download = "https://gitlab.com/degoos/WetSponge/-/tags" %}
+
+  {% include "downloads.njk" %}
+
+{% endblock %}

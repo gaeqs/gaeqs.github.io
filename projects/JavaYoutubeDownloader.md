@@ -29,7 +29,6 @@ the platform in a few lines.
 You can easily install JYD using maven:
 
 ```xml
-
 <dependencies>
   <dependency>
     <groupId>io.github.gaeqs</groupId>
