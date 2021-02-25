@@ -17,9 +17,10 @@ date: 2000-01-20
 
 ---
 
+- [Features](#features)
+
 CMine is a small Minecraft clone using new OpenGL features. It reaches up to 900FPS if run at 1080p.
 CMine requires C# 8 with .NET Framework v4.6.1 and OpenTK.
-
 
 ![Image 1](/img/cmine/image_1.png)
 ![Image 2](/img/cmine/image_2.png)
