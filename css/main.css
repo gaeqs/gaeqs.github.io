@@ -1311,6 +1311,14 @@ blockquote footer {
   text-align: start;
 }
 
+@media screen and (max-width: 800px) {
+  blockquote {
+    border-left: 1px solid #f9c412;
+    padding: 0 1.5em;
+    margin: 1.5em 0 1.5em 0.5em;
+  }
+}
+
 img {
   height: auto;
   margin: 0 auto;
@@ -1579,6 +1587,14 @@ video {
   height: 100px;
   width: 100px;
 }
+
+@media screen and (max-width: 800px) {
+  .skill-image {
+    height: 65px;
+    width: 65px;
+  }
+}
+
 
 .selected-skill {
   filter: invert(0.27) sepia(1) saturate(20) hue-rotate(360deg) brightness(1.2);
