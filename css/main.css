@@ -1523,6 +1523,7 @@ video {
 .downloads img {
   padding: 20%;
   width: 300px;
+  aspect-ratio: 1 / 1;
 }
 
 .techs {
@@ -1533,6 +1534,7 @@ video {
 .techs img {
   width: 100px;
   margin: 0 20px 0 0;
+  aspect-ratio: 1 / 1;
 }
 
 .repo-image {
@@ -1556,4 +1558,5 @@ video {
 
 .profile-image img {
   width: 20%;
+  aspect-ratio: 1 / 1;
 }
