@@ -1484,7 +1484,7 @@ video {
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .post {
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -1525,13 +1525,21 @@ video {
 }
 
 .techs {
+  width: 15%;
+  min-height: 50px;
   display: flex;
   flex-direction: row;
 }
 
+@media screen and (max-width: 800px) {
+  .techs {
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
 .techs img {
-  width: 100px;
-  height: 100px;
   margin: 0 20px 0;
 }
 
@@ -1556,6 +1564,8 @@ video {
 }
 
 .profile-image img {
+  min-width: 150px;
+  min-height: 150px;
   width: 20%;
   height: 20%;
 }

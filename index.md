@@ -10,7 +10,7 @@ date: Last Modified
   <img src="/img/profile_image.png" alt="Profile">
 </div>
 
-Hi! I'm Gael Rial, I'm a **Computer engineer** and **Videogame developer** currently studying "Diseño y Desarrollo de Videojuegos + Ingeniería de Computadores" at Universidad Rey Juan Carlos.
+Hi! I'm Gael Rial, I'm a 21 years old **Computer engineer** and **Videogame developer** currently studying "Diseño y Desarrollo de Videojuegos + Ingeniería de Computadores" at Universidad Rey Juan Carlos.
 
 I have been interested in computers since I was a child, and I learned my first programming language at the age of 14.
 
@@ -27,3 +27,9 @@ I'm currently living in Spain, being able to move to other countries if the situ
 - Ability to work on Windows and Linux.
 - Ability to work with team tools and version controls.
 - Known languages: Spanish, English and Galician.
+
+### Contact
+
+- Mail: gael.rial.costas@gmail.com
+- Github: [@gaeqs](https://github.com/gaeqs)
+- Gitlab: [@gaeqs](https://gitlab.com/gaeqs)
