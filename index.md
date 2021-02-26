@@ -2,7 +2,7 @@
 title: Gael Rial
 layout: layouts/home.njk
 description: Gael Rial.
-image: /img/profile_image.jpg
+image: /img/profile_image.png
 date: Last Modified
 ---
 
@@ -23,7 +23,7 @@ I'm currently living in Spain, being able to move to other countries if the situ
 - Programmer since 2014.
 - Known programming languages: Java, Kotlin, C, C++, C#, HTML, CSS, JavaScript, MATLAB, MIPS32 assembly language.
 - Ability to learn any programming language easily.
-- Ability to work with APIs and frameworks (creating or using them). OpenGL, OpenTK, JavaFX, TornadoFX, Qt, Spigot, Bukkit, WetSponge, JavaYoutubeDownloaded and 11ty are some examples of APIs and frameworks I've used or created.
+- Ability to work with APIs and frameworks (creating or using them). OpenGL, OpenTK, JavaFX, TornadoFX, Qt, Spigot, Bukkit, WetSponge, JavaYoutubeDownloader and 11ty are some examples of APIs and frameworks I've used or created.
 - Ability to work on Windows and Linux.
 - Ability to work with team tools and version controls.
 - Known languages: Spanish, English and Galician.
