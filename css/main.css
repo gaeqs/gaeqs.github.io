@@ -1569,3 +1569,17 @@ video {
   width: 20%;
   height: 20%;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-image {
+  height: 100px;
+  width: 100px;
+}
+
+.selected-skill {
+  filter: invert(0.27) sepia(1) saturate(20) hue-rotate(360deg) brightness(1.2);
+}

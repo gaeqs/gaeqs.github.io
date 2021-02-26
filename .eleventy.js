@@ -202,6 +202,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  eleventyConfig.addNunjucksFilter("skill", function (value) {
+    let data = fs.readFileSync("skills/" + value + ".md", {encoding: 'utf-8'});
+    return markdownLibrary.render(data);
+  });
+
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
