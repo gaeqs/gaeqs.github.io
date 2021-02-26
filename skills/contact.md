@@ -4,6 +4,8 @@ title: contact
 
 image: /img/contact.png
 
+date: 2000-01-03
+
 ---
 <!--data-style-override-->
 
