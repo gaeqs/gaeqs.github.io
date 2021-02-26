@@ -1548,3 +1548,12 @@ video {
 .jyd-demo input {
   width: 85%;
 }
+
+.profile-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-image img {
+  width: 20%;
+}
