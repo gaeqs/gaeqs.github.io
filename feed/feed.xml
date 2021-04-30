@@ -5,7 +5,7 @@
 	
 	<link href="https://gaeqs.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://gaeqs.github.io"/>
-	<updated>2021-02-26T00:00:00-00:00</updated>
+	<updated>2021-04-30T00:00:00-00:00</updated>
 	<id>https://update-me.com</id>
 	<author>
 		<name>Gael Rial Costas</name>
@@ -22,6 +22,53 @@
 &lt;p&gt;This site was made using &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt;, having as a base the &lt;a href=&quot;https://github.com/google/eleventy-high-performance-blog&quot;&gt;eleventy high performance blog&lt;/a&gt; provided by google, and I will use it as a place to post information about my projects and my professional life.&lt;/p&gt;
 &lt;p&gt;If you want information about my projects, go to the &lt;a href=&quot;https://gaeqs.github.io/projects&quot;&gt;projects section&lt;/a&gt;. If you want to see the latest updates about my work, go to the &lt;a href=&quot;https://gaeqs.github.io/posts&quot;&gt;posts section&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My contact information can be found at the &lt;a href=&quot;https://gaeqs.github.io/&quot;&gt;main page&lt;/a&gt; of this site. If you have any question about me, my projects or any other work please don&#39;t hesitate to ask!&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>JAMS 0.1 BETA</title>
+		<link href="https://gaeqs.github.io/posts/2021_04_30/"/>
+		<updated>2021-04-30T00:00:00-00:00</updated>
+		<id>https://gaeqs.github.io/posts/2021_04_30/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;a-new-jams-version-is-available!&quot;&gt;A new JAMS version is available! &lt;a class=&quot;direct-link&quot; href=&quot;#a-new-jams-version-is-available!&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://gaeqs.github.io/img/JAMS/update/0.1-BETA.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is the first BETA of JAMS. It includes big features, such as the plugin system, the new simulation tools and&lt;br&gt;
+lots of reworks.&lt;/p&gt;
+&lt;p&gt;You can now create your own JAMS plugins. A tutorial will be posted when the documentation is created.&lt;/p&gt;
+&lt;h2 id=&quot;changelog%3A&quot;&gt;Changelog: &lt;a class=&quot;direct-link&quot; href=&quot;#changelog%3A&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features &lt;a class=&quot;direct-link&quot; href=&quot;#features&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated to Java 16.&lt;/li&gt;
+&lt;li&gt;Added plugins!&lt;/li&gt;
+&lt;li&gt;Added an intuitive way to split tabs.&lt;/li&gt;
+&lt;li&gt;Added an execution speed selection.&lt;/li&gt;
+&lt;li&gt;Added the editor hint bar.&lt;/li&gt;
+&lt;li&gt;Added macro support.&lt;/li&gt;
+&lt;li&gt;Added the tool menu.&lt;/li&gt;
+&lt;li&gt;Explorer rework.&lt;/li&gt;
+&lt;li&gt;Memory viewer rework.&lt;/li&gt;
+&lt;li&gt;Simulation instruction table rework.&lt;/li&gt;
+&lt;li&gt;Pseudoinstruction rework.&lt;/li&gt;
+&lt;li&gt;Start window rework.&lt;/li&gt;
+&lt;li&gt;Labels viewer rework.&lt;/li&gt;
+&lt;li&gt;Added a memory cache redirection.&lt;/li&gt;
+&lt;li&gt;Better .eqv support.&lt;/li&gt;
+&lt;li&gt;Big improvement in the editor performance.&lt;/li&gt;
+&lt;li&gt;New directive documentation.&lt;/li&gt;
+&lt;li&gt;New bar system.&lt;/li&gt;
+&lt;li&gt;New interrupt system. (External Interrupt Controller)&lt;/li&gt;
+&lt;li&gt;Added more configuration nodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;bugfixes&quot;&gt;Bugfixes &lt;a class=&quot;direct-link&quot; href=&quot;#bugfixes&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug that prevented the kernel section of the instruction table from being available if the kernel section only has one instruction.&lt;/li&gt;
+&lt;li&gt;Fixed an error while accessing memory addresses inside the last section of a memory.&lt;/li&gt;
+&lt;li&gt;Fixed a bug that prevented the jump instruction execution from working properly.&lt;/li&gt;
+&lt;li&gt;Fixed a bug that prevented the MIPS editor from styling properly when lines are updated.&lt;/li&gt;
+&lt;/ul&gt;
 
 			
 		</content>
