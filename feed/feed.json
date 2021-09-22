@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://gaeqs.github.io/posts/2021_08_14/",
+      "url": "https://gaeqs.github.io/posts/2021_08_14/",
+      "title": "JAMS 0.2 BETA",
+      "content_html": "<h2 id=\"a-new-jams-version-is-available!\">A new JAMS version is available! <a class=\"direct-link\" href=\"#a-new-jams-version-is-available!\">#</a></h2>\n<p><img src=\"/img/JAMS/update/0.2-BETA.png\" alt=\"\"></p>\n<p>This is the second BETA version of JAMS. This update introduces a lot of code cleanup and modularization.<br>\nThis was able thanks to NES4JAMS, the NES emulation plugin I've working on the past few months.</p>\n<h2 id=\"changelog%3A\">Changelog: <a class=\"direct-link\" href=\"#changelog%3A\">#</a></h2>\n<h3 id=\"features\">Features <a class=\"direct-link\" href=\"#features\">#</a></h3>\n<ul>\n<li>New improved icon system. Icons now have a beautiful, smooth look thanks to a new render pipeline.</li>\n<li>Plugin support for almost every feature: languages, themes, bars, projects...</li>\n<li>New task API.</li>\n<li>New file litsener API.</li>\n<li>New MIPS instructions: traps, xor, xori.</li>\n<li>New find and replace editor features.</li>\n<li>New bar at the bottom of the main window with new features.</li>\n<li>Now you can sort the files to assemble.</li>\n<li>Big optimizations. Simulators don't allocate heap memory if events are not enabled.</li>\n<li>Full code cleanup.</li>\n</ul>\n<h3 id=\"bugfixes\">Bugfixes <a class=\"direct-link\" href=\"#bugfixes\">#</a></h3>\n<ul>\n<li>Fixed a bug that prevented the simulation from being stopped if it was waiting for synchronization.</li>\n<li>Fixed a bug in some numeric value editors that prevented the user from setting the default value again.</li>\n<li>Fixed an error that appeared when a NOP out of bounds was executed.</li>\n<li>Fixed a memory leak that prevented working panes form being destroyed.</li>\n<li>Fixed a bug that prevented 'out' files to be omitted in a ProjectFolderExplorer.</li>\n</ul>\n<h2 id=\"download\">Download <a class=\"direct-link\" href=\"#download\">#</a></h2>\n<p>You can find the latest version <a href=\"/projects/JAMS\">here</a>.</p>\n",
+      "date_published": "2021-08-14T00:00:00-00:00"
+    },{
       "id": "https://gaeqs.github.io/posts/2021_04_30/",
       "url": "https://gaeqs.github.io/posts/2021_04_30/",
       "title": "JAMS 0.1 BETA",

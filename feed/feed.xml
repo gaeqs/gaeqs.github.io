@@ -5,7 +5,7 @@
 	
 	<link href="https://gaeqs.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://gaeqs.github.io"/>
-	<updated>2021-04-30T00:00:00-00:00</updated>
+	<updated>2021-08-14T00:00:00-00:00</updated>
 	<id>https://update-me.com</id>
 	<author>
 		<name>Gael Rial Costas</name>
@@ -68,6 +68,45 @@ lots of reworks.&lt;/p&gt;
 &lt;li&gt;Fixed an error while accessing memory addresses inside the last section of a memory.&lt;/li&gt;
 &lt;li&gt;Fixed a bug that prevented the jump instruction execution from working properly.&lt;/li&gt;
 &lt;li&gt;Fixed a bug that prevented the MIPS editor from styling properly when lines are updated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;download&quot;&gt;Download &lt;a class=&quot;direct-link&quot; href=&quot;#download&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can find the latest version &lt;a href=&quot;https://gaeqs.github.io/projects/JAMS&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+			
+		</content>
+	</entry>
+	
+	<entry>
+		<title>JAMS 0.2 BETA</title>
+		<link href="https://gaeqs.github.io/posts/2021_08_14/"/>
+		<updated>2021-08-14T00:00:00-00:00</updated>
+		<id>https://gaeqs.github.io/posts/2021_08_14/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;a-new-jams-version-is-available!&quot;&gt;A new JAMS version is available! &lt;a class=&quot;direct-link&quot; href=&quot;#a-new-jams-version-is-available!&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://gaeqs.github.io/img/JAMS/update/0.2-BETA.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is the second BETA version of JAMS. This update introduces a lot of code cleanup and modularization.&lt;br&gt;
+This was able thanks to NES4JAMS, the NES emulation plugin I&#39;ve working on the past few months.&lt;/p&gt;
+&lt;h2 id=&quot;changelog%3A&quot;&gt;Changelog: &lt;a class=&quot;direct-link&quot; href=&quot;#changelog%3A&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features &lt;a class=&quot;direct-link&quot; href=&quot;#features&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New improved icon system. Icons now have a beautiful, smooth look thanks to a new render pipeline.&lt;/li&gt;
+&lt;li&gt;Plugin support for almost every feature: languages, themes, bars, projects...&lt;/li&gt;
+&lt;li&gt;New task API.&lt;/li&gt;
+&lt;li&gt;New file litsener API.&lt;/li&gt;
+&lt;li&gt;New MIPS instructions: traps, xor, xori.&lt;/li&gt;
+&lt;li&gt;New find and replace editor features.&lt;/li&gt;
+&lt;li&gt;New bar at the bottom of the main window with new features.&lt;/li&gt;
+&lt;li&gt;Now you can sort the files to assemble.&lt;/li&gt;
+&lt;li&gt;Big optimizations. Simulators don&#39;t allocate heap memory if events are not enabled.&lt;/li&gt;
+&lt;li&gt;Full code cleanup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;bugfixes&quot;&gt;Bugfixes &lt;a class=&quot;direct-link&quot; href=&quot;#bugfixes&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug that prevented the simulation from being stopped if it was waiting for synchronization.&lt;/li&gt;
+&lt;li&gt;Fixed a bug in some numeric value editors that prevented the user from setting the default value again.&lt;/li&gt;
+&lt;li&gt;Fixed an error that appeared when a NOP out of bounds was executed.&lt;/li&gt;
+&lt;li&gt;Fixed a memory leak that prevented working panes form being destroyed.&lt;/li&gt;
+&lt;li&gt;Fixed a bug that prevented &#39;out&#39; files to be omitted in a ProjectFolderExplorer.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;download&quot;&gt;Download &lt;a class=&quot;direct-link&quot; href=&quot;#download&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;You can find the latest version &lt;a href=&quot;https://gaeqs.github.io/projects/JAMS&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
