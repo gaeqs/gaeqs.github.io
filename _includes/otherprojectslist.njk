@@ -1,0 +1,23 @@
+{% for post in otherList | reverse %}
+  <article class="other-project">
+    {% if post.data.image %}
+      <a href="{{ post.url | url }}">
+        <img src="{{ post.data.image }}" alt="Image">
+      </a>
+    {% endif %}
+
+    <section class="info">
+      <h1>
+        <a href="{{ post.url | url }}">
+          {{ post.data.title }}
+        </a>
+      </h1>
+      <p>
+        <a href="{{ post.url | url }}">
+          {{ post.data.description }}
+        </a>
+      </p>
+    </section>
+  </article>
+{% endfor %}
+

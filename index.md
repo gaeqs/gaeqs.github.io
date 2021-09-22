@@ -18,4 +18,4 @@ I'm currently living in Spain, being able to move to other countries if the situ
 
 **[My latest project](/projects/JAMS/)** is a MIPS32r6 editor, assembler and simulator made from scratch using the latest technologies in the Java environment.
 
-{% include skillslist.njk %}
+{% include aboutlist.njk %}
