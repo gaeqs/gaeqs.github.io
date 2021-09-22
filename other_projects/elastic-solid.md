@@ -24,7 +24,7 @@ This set of scripts can be used to generate elastic solids in Unity.
 The script requires a .node, .ele and .face files that can be generated using TetGen and a mesh wrapping the mesh you want to use. The script is prepared to do this job automatically using a modified version of TetGen.
 Unfortunately, I cannot share the modified TetGen due to licensing issues.
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/elastic-solid/video_1.mp4" type="video/mp4">
 </video>
 

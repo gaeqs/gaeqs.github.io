@@ -33,31 +33,31 @@ It supports multiple themes and languages.
 
 #### Modern and easy to use design.
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/JAMS/video_1.mp4" type="video/mp4">
 </video>
 
 #### Project-based.
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/JAMS/video_2.mp4" type="video/mp4">
 </video>
 
 #### Intelligent editor
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/JAMS/video_3.mp4" type="video/mp4">
 </video>
 
 #### Customizable
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/JAMS/video_4.mp4" type="video/mp4">
 </video>
 
 #### Powerful simulator
 
-<video autoplay muted loop>
+<video muted loop controls>
   <source src="/img/JAMS/video_5.mp4" type="video/mp4">
 </video>
 
