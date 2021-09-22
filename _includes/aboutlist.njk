@@ -1,11 +1,11 @@
-<div class="skills">
-{% for skill in  collections.skills %}
-<img alt="{{ skill.data.title }}" class="skill-image" src="{{ skill.data.image }}">
+<div class="about">
+{% for skill in  collections.about %}
+<img alt="{{ skill.data.title }}" class="about-image" src="{{ skill.data.image }}">
 {% endfor %}
 </div>
 <!-- Avoids CSS optimization -->
-<div class="selected-skill"></div>
+<div class="selected-about"></div>
 
-> <div id="skills-content"></div>
+> <div id="about-content"></div>
 
-<script src="/js/skills.js"></script>
+<script src="/js/about.js"></script>

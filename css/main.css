@@ -1538,26 +1538,6 @@ video {
   padding: 20%;
 }
 
-.techs {
-  width: 15%;
-  min-height: 50px;
-  display: flex;
-  flex-direction: row;
-  margin: 2%;
-}
-
-@media screen and (max-width: 800px) {
-  .techs {
-    height: 80px;
-    width: 100%;
-    justify-content: space-around;
-  }
-}
-
-.techs img {
-  margin: 0 20px 0;
-}
-
 .repo-image {
   width: 100px;
   height: 100px;
@@ -1585,25 +1565,25 @@ video {
   height: 20%;
 }
 
-.skills {
+.about {
   display: flex;
   flex-wrap: wrap;
 }
 
-.skill-image {
+.about-image {
   height: 100px;
   width: 100px;
 }
 
 @media screen and (max-width: 800px) {
-  .skill-image {
+  .about-image {
     height: 65px;
     width: 65px;
   }
 }
 
 
-.selected-skill {
+.selected-about {
   filter: invert(0.27) sepia(1) saturate(20) hue-rotate(360deg) brightness(1.2);
 }
 
@@ -1611,7 +1591,7 @@ video {
   text-align: center;
 }
 
-#other-projects {
+#projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -1619,27 +1599,27 @@ video {
   gap: 1rem;
 }
 
-.other-project {
+.project {
   display: block;
   position: relative;
 
   flex: 0 0 330px;
-  height: 330px;
+  height: 370px;
 
   padding: 0;
   margin: 0;
 }
 
-.other-project img {
+.project img {
   width: 100%;
   height: auto;
 }
 
-.other-project .info {
+.project .info {
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
   width: 100%;
-  height: 30%;
+  height: 100px;
 
   background: #2d2d2d;
   border-top: 0.3rem solid #191919;
@@ -1647,7 +1627,7 @@ video {
   padding: 2%;
 }
 
-.other-project .info h1 {
+.project .info h1 {
   font-size: 25px;
   font-style: italic;
   line-height: 1;
@@ -1659,7 +1639,7 @@ video {
   height: 30%;
 }
 
-.other-project .info p {
+.project .info p {
   display: -webkit-box;
 
   line-height: 1.5;
@@ -1672,7 +1652,34 @@ video {
   -webkit-box-orient: vertical;
 }
 
-.other-project .info p a {
+.project .info p a {
   color: white;
 }
 
+.project .techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  gap: 5px;
+  height: 30px;
+  background: #2d2d2d;
+}
+
+.project .techs > a {
+  flex: 0 0 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.project .techs > a:last-child {
+  margin-right: 8px;
+}
+
+.project .techs > a > img:hover {
+  filter: invert(0.27) sepia(1) saturate(20) hue-rotate(360deg) brightness(1.2);
+}

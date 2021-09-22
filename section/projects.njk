@@ -9,14 +9,10 @@ eleventyNavigation:
   order: 1
 ---
 
-<div id="posts">
-  {% set postslist = collections.projects %}
-  {% include "projectslist.njk" %}
-</div>
+{% set postslist = collections.projects %}
+{% include "projectslist.njk" %}
 
 <h1 id="other-projects-title">Other projects</h1>
 
-<div id="other-projects">
-  {% set otherList = collections.other_projects %}
-  {% include "otherprojectslist.njk" %}
-</div>
+{% set postslist = collections.other_projects %}
+{% include "projectslist.njk" %}

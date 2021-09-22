@@ -1,0 +1,23 @@
+---
+pagination:
+  data: techs
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+layout: layouts/home.njk
+techs:
+- csharp
+- gradle
+- java
+- javafx
+- kotlin
+- minecraft
+- opengl
+- unity
+eleventyComputed:
+  title: Projects that use “{{ tag }}”
+permalink: /techs/{{ tag | slug }}/
+---
+
+{% set postslist = collections.projects | concat(collections.other_projects) | tech(tag) %}
+{% include "projectslist.njk" %}

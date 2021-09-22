@@ -1,29 +1,31 @@
-{% for post in postslist | reverse %}
-
-  <article class="post">
-    {% if post.data.image %}
-      <figure class="post-figure">
+<div id="projects">
+  {% for post in postslist | reverse %}
+    <article class="project">
+      {% if post.data.image %}
         <a href="{{ post.url | url }}">
           <img src="{{ post.data.image }}" alt="Image">
         </a>
-      </figure>
-    {% endif %}
+      {% endif %}
 
-    <div class="post-div">
-      <h2>
-        <a href="{{ post.url | url }}">
-          {{ post.data.title }}
-        </a>
-      </h2>
-      <p>
-        {{ post.data.description }}
-      </p>
-      <div class="techs">
+      <section class="info">
+        <h1>
+          <a href="{{ post.url | url }}">
+            {{ post.data.title }}
+          </a>
+        </h1>
+        <p>
+          <a href="{{ post.url | url }}">
+            {{ post.data.description }}
+          </a>
+        </p>
+      </section>
+      <section class="techs">
         {% for tech in post.data.tech %}
-          <img src="/img/tech/{{ tech }}.png" alt="{{ tech }}" title="{{ tech }}">
+          <a href="/techs/{{ tech | slug }}">
+            <img src="/img/tech/{{ tech }}.png" alt="{{ tech }}" title="{{ tech }}">
+          </a>
         {% endfor %}
-      </div>
-    </div>
-  </article>
-
-{% endfor %}
+      </section>
+    </article>
+  {% endfor %}
+</div>

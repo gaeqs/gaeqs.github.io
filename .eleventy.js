@@ -207,6 +207,15 @@ module.exports = function (eleventyConfig) {
     return markdownLibrary.render(data);
   });
 
+  eleventyConfig.addNunjucksFilter("tech", function(value, tech) {
+    return value.filter(project => project.data.tech.includes(tech));
+  });
+
+  eleventyConfig.addNunjucksFilter("concat", function(value, other) {
+    return value.concat(other);
+  });
+
+
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
