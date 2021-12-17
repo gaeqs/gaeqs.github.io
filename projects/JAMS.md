@@ -62,5 +62,5 @@ It supports multiple themes and languages.
 </video>
 
 ### Downloads
-#### Version 0.2-BETA
+#### Version 0.3-BETA
 
