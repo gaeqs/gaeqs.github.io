@@ -15,6 +15,8 @@ repository_type: github
 
 date: 2000-01-29
 
+tags: projects
+
 ---
 
 - [Installation](#installation)

@@ -15,6 +15,8 @@ repository_type: github
 
 date: 2000-01-20
 
+tags: projects
+
 ---
 
 - [Features](#features)

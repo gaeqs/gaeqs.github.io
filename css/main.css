@@ -1195,6 +1195,7 @@ header nav {
   top: 0;
   left: 0;
   width: 100vw;
+  height: 50px;
   padding: 0.375em 1.5em;
   background: hsla(0, 0%, 100%, 0.9);
   font-weight: 200;
@@ -1682,4 +1683,53 @@ video {
 
 .project .techs > a > img:hover {
   filter: invert(0.27) sepia(1) saturate(20) hue-rotate(360deg) brightness(1.2);
+}
+
+.wiki-sidebar {
+  background: rgb(49, 49, 51);
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+
+.wiki-sidebar .wiki-element-header {
+  display: flex;
+  gap: 5px;
+  padding: 0 10px;
+}
+
+.wiki-sidebar ul{
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+.wiki-sidebar ul ul li {
+  padding: 0;
+}
+
+.wiki-sidebar input[type="checkbox"]{
+  position: absolute;
+  left: -9999px;
+}
+
+.wiki-sidebar input[type="checkbox"] ~ ul{
+  height: 0;
+  transform: scaleY(0);
+}
+
+.wiki-sidebar input[type="checkbox"]:checked ~ ul{
+  height: 100%;
+  transform-origin: top;
+  transition: transform .2s ease-out;
+  transform: scaleY(1);
+}
+
+.wiki-sidebar input[type="checkbox"]:checked + label{
+  background: #26C281;
+  border-bottom: 1px solid #fff;
 }

@@ -79,8 +79,9 @@
     </noscript>
   {% endif %}
 </header>
-
 <main>
+  {% block sidebar %}
+  {% endblock %}
   <article>
     {% block article %}
       {{ content | safe }}

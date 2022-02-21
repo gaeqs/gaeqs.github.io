@@ -15,6 +15,8 @@ repository_type: gitlab
 
 date: 2000-01-25
 
+tags: projects
+
 ---
 
 - [Developer Installation](#developer-installation)

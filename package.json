@@ -37,7 +37,7 @@
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.5",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1",
     "rollup-plugin-terser": "^6.1.0",
@@ -62,7 +62,7 @@
     "purgecss": "^2.3.0",
     "querystring": "^0.2.0",
     "rollup": "^2.23.0",
-    "sharp": "^0.27.0",
+    "sharp": "^0.30.1",
     "twitter": "^1.7.1"
   }
 }

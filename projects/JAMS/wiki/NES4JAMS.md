@@ -1,22 +1,9 @@
 ---
-title: NES4JAMS
-
-layout: layouts/project.njk
-
-image: /img/JAMS/icon.png
-
-tech: [kotlin, javafx, gradle]
-
-description: NES4JAMS is a NES editor, assembler and simulator for JAMS.
-
-repository: https://github.com/gaeqs/NES4JAMS
-
-repository_type: github
-
-date: 2000-01-30
-
-tags: projects
-
+title: TEST
+layout: layouts/wiki.njk
+tech: [java, javafx, gradle]
+eleventyNavigation:
+  key: Home
 ---
 
 JAMS4NES is a [JAMS](/projects/JAMS) plugin that extends the editor's capabilities, allowing you to edit, assemble and simulate NES games.

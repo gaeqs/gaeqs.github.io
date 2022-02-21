@@ -1,0 +1,28 @@
+<div class="wiki-sidebar">
+  {% set navPages = collections.jamswiki | eleventyNavigation %}
+  {% macro renderNavListItem(entry, parent, deep) -%}
+    <li class="{% if entry.url == page.url %} active active-deep-{{ deep }} {% endif %} wiki-element deep-{{ deep }}">
+      {%- if entry.children.length -%}
+        <input type="checkbox" id="{{ parent }}{{ entry.title }}" class="wiki-checkbox">
+        <div class="wiki-element-header">
+          <label for="{{ parent }}{{ entry.title }}">></label>
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </div>
+        <ul>
+          {%- for child in entry.children %}{{ renderNavListItem(child, parent + entry.title + "-", deep + 1) }}{% endfor -%}
+        </ul>
+      {% else %}
+        <div class="wiki-element-header">
+          &ensp;
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </div>
+      {%- endif -%}
+    </li>
+  {%- endmacro %}
+
+  <ul>
+    {%- for entry in navPages %}{{ renderNavListItem(entry, "", 0) }}{%- endfor -%}
+  </ul>
+</div>
+
+<script src="/js/wiki-sidebar.js"></script>
